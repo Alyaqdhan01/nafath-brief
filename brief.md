@@ -22,11 +22,25 @@ Resource: https://medium.com/@tahirbalarabe2/%EF%B8%8Fadversarial-machine-learni
 The OWASP Mobile Application Security Verification Standard (MASVS) is a security standard that defines requirements for protecting mobile applications. It covers areas such as data storage, cryptography, authentication, network communication, and platform interaction. Developers and security testers use MASVS to assess an app against specific security requirements, identify vulnerabilities, and verify that appropriate security controls are implemented before releasing the application.
 Resource: OWASP MASVS - https://mas.owasp.org/MASVS/
 
+
 ## Networking
+
+BGP hijacking occurs when a network announces incorrect or unauthorized internet routes, potentially redirecting traffic to the wrong destination. Resource Public Key Infrastructure (RPKI) helps reduce this risk through Route Origin Authorisations (ROAs), which identify the Autonomous System allowed to originate an IP prefix. Networks can validate route origins and reject invalid announcements. However, origin validation alone cannot verify the complete AS path or prevent every routing attack.
+
+Resource: RIPE NCC - BGP Origin Validation - https://www.ripe.net/manage-ips-and-asns/resource-management/rpki/bgp-origin-validation/
 
 ## Cybersecurity
 
+Log4Shell (CVE-2021-44228) is a critical remote code execution vulnerability in Apache Log4j, a Java logging library. It received a CVSS severity score of 10.0 out of 10. An attacker could exploit vulnerable configurations through crafted input processed by Log4j. Organizations should identify affected applications, update Log4j to an appropriate current patched version, and verify that remediation has succeeded.
+
+Resource: Apache Logging Services - Security - https://logging.apache.org/security.html
+
 ## Data
+
+A Software Bill of Materials (SBOM) is a formal record describing software components and their relationships. It helps organizations identify what is included in an application and investigate whether components are affected by known vulnerabilities. Minimum elements include supplier name, component name, component version, other unique identifiers, dependency relationships, SBOM author, and timestamp. Maintaining accurate SBOMs improves software supply-chain visibility but does not eliminate every security risk.
+
+Resource: NTIA - The Minimum Elements For a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
+
 
 ## Misconception in My Track
 
